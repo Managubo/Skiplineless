@@ -2,7 +2,7 @@
 
 Version 0.1.0
 
-[D[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[C[3~With[A[F[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~With this project SPLs gene sequences from model species are retrieved from online databases and saved in a ".txt" file. Then a database is created with[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Dwith available tulip's transcriptomic data. Afterwards, the data in our ".txt"file is BLASTed against our transcriptome database, this with the purpose of finding SPL like sequences in our transcriptome. Next, the output gets processed so eventually we get to a list of the most relevant hits.
+With this project we read a given .txt file with names of genes and sequences, but the sequences are in "chopped lines". What this code does is that it makes those sequences to go all the way in a single line, so that the result of the code is a list of sequence name, in the next line the sequence, then the next line has an empty space and so on and so on.
 
 
 ## Project organization
