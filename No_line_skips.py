@@ -15,7 +15,7 @@ To confirm that the code works a function is used at the end of the script to pr
 with open("C:\\Manuel\\SPLsTulip\\data\\raw\\cDNA.txt", "r") as source,\
      open("C:\\Manuel\\SPLsTulip\\data\\processed\\cDNAs_wo_spaces.txt", "w") as new_file:
 
-# Loop over the lines
+    # Loop over the lines
     for line in source.readlines():
         seq = ""
         if line.startswith(">"):    # Identifies when a line stars with a ">" symbol
