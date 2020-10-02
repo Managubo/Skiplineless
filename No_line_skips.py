@@ -11,8 +11,19 @@ To confirm that the code works a function is used at the end of the script to pr
 .txt file.
 """
 
+def skip_line_presence(file, line_skip):
+    """"Check if line skips are present in the fasta file that is being read"""
+    with open(file, "r") as read_obj:
+        for line in read_obj:
+            if line_skip in line:
+                return True
+            else:
+                raise IndexError("The file does not contain skip lines")
+
+skip_line_presence("C:\\Manuel\\SPLsTulip\\data\\raw\\cDNAs.txt", "\n")
+
 # Read file with \n and open the file where we´ll store the \n-less sequences
-with open("C:\\Manuel\\SPLsTulip\\data\\raw\\cDNA.txt", "r") as source,\
+with open("C:\\Manuel\\SPLsTulip\\data\\raw\\cDNAs.txt", "r") as source,\
      open("C:\\Manuel\\SPLsTulip\\data\\processed\\cDNAs_wo_spaces.txt", "w") as new_file:
 
     # Loop over the lines
@@ -32,3 +43,5 @@ with open("C:\\Manuel\\SPLsTulip\\data\\processed\\cDNAs_wo_spaces.txt", "r") as
     text = proof.read()
 
 print(text)
+
+
