@@ -13,7 +13,31 @@ The main script performing the transformation of "chopped" files is called "No_l
 ## Installation
 
 Prerequisites:
-> Python 2.7, 3.5+
+> Python 3.5+
+
+Packages and versions:
+> arrow==0.16.0
+> binaryornot==0.4.4
+> certifi==2020.6.20
+> chardet==3.0.4
+> click==7.1.2
+> cookiecutter==1.7.2
+> flake8==3.8.3
+> idna==2.10
+> Jinja2==2.11.2
+> jinja2-time==0.2.0
+> MarkupSafe==1.1.1
+> mccabe==0.6.1
+> poyo==0.5.0
+> pycodestyle==2.6.0
+> pyflakes==2.2.0
+> python-dateutil==2.8.1
+> python-slugify==4.0.1
+> requests==2.24.0
+> six==1.15.0
+> text-unidecode==1.3
+> urllib3==1.25.10
+
 
 ## Project organization
 
