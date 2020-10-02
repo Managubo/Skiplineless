@@ -1,9 +1,19 @@
-# SPLs in Tulip
+# Skiplineless
 
 Version 0.1.0
 
-With this project we read a given .txt file with names of genes and sequences, but the sequences are in "chopped lines". What this code does is that it makes those sequences to go all the way in a single line, so that the result of the code is a list of sequence name, in the next line the sequence, then the next line has an empty space and so on and so on.
+The purpose of Skiplineless is to automatically transform "chopped" fasta files in more nicely structured ones. 
+With Skiplineless we read a given .txt file with gene IDs and sequences which are "chopped" in short lines and then we make those sequences to go
+all the way in a single line, so that the result of the code is a list of gene ID, in the next line the sequence, then an empty line after which 
+the next gene ID, sequence and emty line will be printed, and so on and so on.
 
+You can both download or clone the project to use it with your own fasta .txt files.
+The main script performing the transformation of "chopped" files is called "No_line_skips.py" and you can find it in the main folder.
+
+## Installation
+
+Prerequisites:
+> Python 2.7, 3.5+
 
 ## Project organization
 
